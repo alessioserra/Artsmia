@@ -42,4 +42,5 @@ public class Model {
 		System.out.println("Grafo Creato!\n#NODI: "+grafo.vertexSet().size()+"\n#ARCHI: "+grafo.edgeSet().size());
 	}
 	
+	
 }

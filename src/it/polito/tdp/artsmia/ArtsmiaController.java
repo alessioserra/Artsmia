@@ -57,7 +57,16 @@ public class ArtsmiaController {
 
 	@FXML
 	void doCalcolaComponenteConnessa(ActionEvent event) {
-		txtResult.setText("doCalcolaComponenteConnessa");
+		
+		try {
+			
+			
+			
+			
+		}catch(NumberFormatException e) {
+			System.out.println("Inserire un numero corretto!");
+		}
+		
 	}
 
 	@FXML
